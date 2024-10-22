@@ -1,0 +1,22 @@
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\bin\Debug\net8.0-windows\Insulin Calculator.exe
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\bin\Debug\net8.0-windows\Insulin Calculator.deps.json
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\bin\Debug\net8.0-windows\Insulin Calculator.runtimeconfig.json
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\bin\Debug\net8.0-windows\Insulin Calculator.dll
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\bin\Debug\net8.0-windows\Insulin Calculator.pdb
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\bin\Debug\net8.0-windows\MaterialSkin.dll
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.vbproj.AssemblyReference.cache
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin_Calculator.Form1.resources
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.vbproj.GenerateResource.cache
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.AssemblyInfoInputs.cache
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.AssemblyInfo.vb
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.vbproj.CopyComplete
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.dll
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\refint\Insulin Calculator.dll
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.pdb
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin Calculator.genruntimeconfig.cache
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\ref\Insulin Calculator.dll
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\bin\Debug\net8.0-windows\Insulin Calculator.dll.config
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\obj\Debug\net8.0-windows\Insulin_Calculator.Resources.resources
+C:\Users\tyler\source\repos\Insulin Calculator\Insulin Calculator\bin\Debug\net8.0-windows\Tulpep.NotificationWindow.dll
