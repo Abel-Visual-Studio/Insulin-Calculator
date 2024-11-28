@@ -8,4 +8,5 @@ If you need a Window's software/application to be able to quickly figure your in
 
 ## Downloads
 The source code is available to the public for download and modifications; however, if you just wish to download the software, you can do so from the releases section of this Github.
+<br>
 Download Now: https://github.com/Abel-Visual-Studio/Insulin-Calculator/releases
