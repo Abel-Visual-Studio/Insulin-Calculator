@@ -1,11 +1,11 @@
-﻿Imports Tulpep.NotificationWindow
+Imports Tulpep.NotificationWindow
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ResultLabel.Hide()
-        GlucoseFactorInput.Text = My.Settings.GlucoseFactor
-        GlucoseTargetInput.Text = My.Settings.GlucoseTarget
-        CarbFactorInput.Text = My.Settings.CarbFactor
+        GlucoseFactorInput.Text = Convert.ToString(My.Settings.GlucoseFactor)
+        GlucoseTargetInput.Text = Convert.ToString(My.Settings.GlucoseTarget)
+        CarbFactorInput.Text = Convert.ToString(My.Settings.CarbFactor)
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
@@ -27,7 +27,7 @@ Public Class Form1
         'Appoint the numbers
         BloodGlucose = Convert.ToDouble(MaterialTextBox1.Text)
         Carbohydrates = Convert.ToDouble(MaterialTextBox2.Text)
-        GlucoseFactor = Convert.ToDouble(GlucoseTargetInput.Text)
+        GlucoseFactor = Convert.ToDouble(GlucoseFactorInput.Text)
         GlucoseTarget = Convert.ToDouble(GlucoseTargetInput.Text)
         CarbFactor = Convert.ToDouble(CarbFactorInput.Text)
 
@@ -35,15 +35,19 @@ Public Class Form1
         CarbUnits = Carbohydrates / CarbFactor
 
         'Do the blood glucose correction math
-        CorrectionUnits = 0
-
         If BloodGlucose >= GlucoseTarget Then
             Dim glucoseDifference As Double = BloodGlucose - GlucoseTarget
-            CorrectionUnits = Math.Floor(glucoseDifference / GlucoseFactor)
+            If GlucoseFactor > 0 Then
+                CorrectionUnits = glucoseDifference / GlucoseFactor
+            Else
+                CorrectionUnits = 0 ' Prevent divide by zero error
+            End If
+        Else
+            CorrectionUnits = 0
         End If
 
-        'Get the total units
-        TotalUnits = Math.Round(CarbUnits + CorrectionUnits)
+        'Get the total units (rounded up to avoid under-dosing)
+        TotalUnits = Math.Ceiling(CarbUnits + CorrectionUnits)
 
         'Format the result label
         Dim formWidth As Integer = Me.ClientSize.Width
